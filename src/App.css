@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.App {
+  text-align: center;
+}
+
+.App-logo:hover {
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+
+.App-header {
+  background-image: url('./love2.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.textTilte{
+  font-family: Indie Flower;
+  color: #FFFFFF;
+}
+
+.textTitle2{
+  font-family: Indie Flower;
+  color: #FFFFFF;
+  font-size: 55px;
+}
+
+.textComment{
+  font-family: Indie Flower;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('./sapin.jpg');
+  background-size: cover;
+}
